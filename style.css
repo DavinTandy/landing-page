@@ -34,10 +34,19 @@ a:link, a:visited, a:hover, a:active {
     align-items: center;
 }
 
+.section-two {
+    padding: 96px 0px;
+}
+
 .section-two-information {
     margin: 0px 336px;
     display: flex;
     justify-content: space-between;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 96px 336px;
 }
 
 .logo-text {
@@ -104,4 +113,18 @@ img {
     color: #1F2937;
     text-align: center;
     padding: 0px 16px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-writer {
+    font-size: 24px;
+    color: #1F2937;
+    text-align: right;
+    font-weight: bold;
 }
