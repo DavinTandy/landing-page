@@ -5,7 +5,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 24px 96px;
+    padding: 24px 192px;
     display: flex;
     justify-content: space-between;
 }
@@ -16,12 +16,13 @@ a:link, a:visited, a:hover, a:active {
 
 .section-one {
     background-color: #1F2937;
-    padding: 96px;
+    padding: 96px 192px;
     display: flex;
 }
 
 .section-one-left {
     flex-shrink: 1;
+    padding-right: 192px;
 }
 
 .section-one-right {
@@ -31,6 +32,12 @@ a:link, a:visited, a:hover, a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-two-information {
+    margin: 0px 336px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo-text {
@@ -70,4 +77,31 @@ a:link, a:visited, a:hover, a:active {
 
 img {
     color: #E5E7EB;
+}
+
+.information-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.information-div {
+    margin: 0px 10px;
+    max-width: 200px;
+}
+
+.information-image {
+    min-height: 200px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #3882F6;
+    border-radius: 24px;
+}
+
+.alternative-information-text {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    padding: 0px 16px;
 }
