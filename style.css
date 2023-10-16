@@ -49,6 +49,18 @@ a:link, a:visited, a:hover, a:active {
     padding: 96px 336px;
 }
 
+.container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 144px 288px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-content {
+    margin: 48px 96px;
+}
+
 .logo-text {
     font-size: 24px;
     color: #F9FAF8;
@@ -127,4 +139,30 @@ img {
     color: #1F2937;
     text-align: right;
     font-weight: bold;
+}
+
+.container-content-title {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.container-content-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.signup {
+    background-color: #3882F6;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 48px 96px;
+    border: 2px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 48px;
 }
